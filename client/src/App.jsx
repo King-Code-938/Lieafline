@@ -16,7 +16,7 @@ export default function App() {
           <Outlet />
         </div>
       </div>
-      <footer className='footer'>
+      <footer className='footer w-full bg-gray-200 text-center p-4'>
         <p>&copy; 2025 Lieafline. All rights reserved.</p>
       </footer>
     </div>
