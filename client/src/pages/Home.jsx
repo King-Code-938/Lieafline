@@ -7,3 +7,4 @@ export default function Home() {
     </div>
   );
 }
+// This page will be used as hero page

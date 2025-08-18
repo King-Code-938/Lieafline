@@ -1,5 +1,6 @@
 import Navbar from './component/Layout/Navbar';
 import Sidebar from './component/Layout/Sidebar';
+import Footer from './component/Layout/Footer';
 import { Outlet } from 'react-router-dom';
 
 export default function App() {
@@ -16,9 +17,7 @@ export default function App() {
           <Outlet />
         </div>
       </div>
-      <footer className='footer w-full bg-gray-200 text-center p-4'>
-        <p>&copy; 2025 Lieafline. All rights reserved.</p>
-      </footer>
+      <Footer />
     </div>
   );
 }
